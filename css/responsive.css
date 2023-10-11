@@ -1,0 +1,21 @@
+/* large screen */
+
+@media (max-width: 991px) {
+
+    .navigation-wrap{
+      text-align: center;
+      background-color: white !important;
+        
+    }
+    .nav-link{
+        font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black ;
+    }
+    .nav-link:hover,.nav-link:active{
+        color: var(--primary-color) !important;
+    }
+
+}
